@@ -1,5 +1,3 @@
-$( document ).ready(function() {
-
 
 function Wizard(wandType, speciality, alliegance, life){
   this.wandType = wandType || "elm";
@@ -13,6 +11,8 @@ function Wizard(wandType, speciality, alliegance, life){
 
 }// end wizard function
 
+var wizard = new Wizard();
+
 
 function Wands(woodType, coreMaterial, spell){
     this.woodType = woodType || "elm";
@@ -25,8 +25,8 @@ function Wands(woodType, coreMaterial, spell){
 }//end wands function
 
 
-function MagicalBeast(name, weakness, ability, life){
-  this.name = name || "creature";
+function Dragon(name, weakness, ability, life){
+  this.name = name || "Norbert";
   this.weakness = weakness || "groin shot";
   this.ability = ability || "claw";
   this.life = life || 100;
@@ -36,12 +36,3 @@ function MagicalBeast(name, weakness, ability, life){
 
 
 }//end MagicalBeast function
-
-
-
-
-
-
-
-
-});

@@ -24,11 +24,11 @@
 	<div class="gamezonewrapper">
 
 		<div class="gamezone you">
-			
+		
 			<img src="imgs/wizard.jpg" alt="" width="200">
 
-				<button type="button" class="cast">Cast Spell</button>
-							<button type="button" class="heal">Heal</button>
+				<button type="button" class="cast" onclick="ginnyWand.wizCast(hungarianHorntail);">Cast Spell</button>
+							<button type="button" class="heal" onclick="harryPotter.heal(harryPotter);">Heal</button>
 
 
 		</div><!--end wizard gamezone-->
@@ -47,7 +47,7 @@
 
 			<img src="imgs/norbert.jpg" alt="" width="200">
 
-						<button type="button" class="dragonattack">Attack Wizard</button>
+						<button type="button" class="dragonattack"  onclick="hungarianHorntail.maul(harryPotter);">Attack Wizard</button>
 
 
 
@@ -55,7 +55,15 @@
 
 
 
-		<div class="actionblock"></div>
+		<div class="actionblock">
+			
+			<div class="healcasttext"></div>
+			<div class="spellcasttext"></div>
+			<div class="dragonmaul"></div>
+
+
+
+		</div>
 
 
 	</div><!--end gamezone wrapper-->
@@ -72,6 +80,7 @@
 
 
 	<script src="js/lib/jsmin.js"></script>
+	<script src="js/calvin.js"></script>
 
 	<script src="js/core.js"></script>
 

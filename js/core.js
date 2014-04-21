@@ -79,21 +79,6 @@ var ginnyWand = new Wand();
 
 var hungarianHorntail = new Dragon();
 
-function heal(target){
-    this.wizLife = 100;
-    $( ".healcasttext" ).append( "<h4>You've healed yourself!</h4>" );
-};
-
-function spellCast(target){
-  this.life = this.life - 50;
-      $( ".spellcasttext" ).append( "<h4>You cast the deathstrike curse!</h4>" );
-
-};
-
-function dragonMaul(target){
-        $( ".dragonmaul" ).append( "<h4>The Hungarian Horntail mauls you!</h4>" );
-
-}
 
 
 
